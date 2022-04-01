@@ -1,0 +1,27 @@
+.item{
+    .img-box{
+        width: 200px;
+    }
+    .delete-item{
+        right: 30px;
+        bottom: 30px;
+    }
+    
+}
+.select-item{
+    transition: .3s ease-in-out;
+    &.active{
+        border: 2px solid #F7AB4B;
+        svg{
+            path{        
+            fill: #F7AB4B;
+          }
+        }
+    }
+
+    svg{
+        path{
+            transition: .3s ease-in-out;
+        }
+    }
+}

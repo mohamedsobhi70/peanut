@@ -1,0 +1,69 @@
+$primary-color: #3269ac;
+$secondary-color: #f7ab4b;
+$tertiary-color: #a6cbed;
+$dark-color: #072954;
+$success-color: #40da90;
+$error-color: #ff4f4f;
+$gray-color: #c8c8c8;
+$acent-color: #ecf1f4;
+$text-color: #364456;
+
+.border-20 {
+  border-radius: 20px;
+}
+header {
+  nav {
+    .navbar-nav {
+      margin-left: 80px;
+    }
+    .nav-item {
+      &.active {
+        .nav-link {
+          color: $secondary-color;
+        }
+      }
+    }
+    .nav-link {
+      color: $text-color;
+      transition: 0.3s ease-in-out;
+      font-size: 14px;
+      font-weight: 600;
+      svg {
+        path {
+          transition: 0.3s ease-in-out;
+          fill: $text-color;
+        }
+      }
+      &:hover {
+        color: $secondary-color;
+        svg {
+          path {
+            fill: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  .nav-link {
+    color: $text-color;
+    transition: 0.3s ease-in-out;
+    font-size: 12px;
+    font-weight: 600;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+  .social-item {
+    width: 26px;
+    height: 26px;
+  }
+}
+@media (max-width: 767px) {
+  nav {
+    .navbar-nav {
+      margin-left: 0 !important;
+    }
+  }
+}

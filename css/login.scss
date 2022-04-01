@@ -1,0 +1,16 @@
+.login-box{
+max-width: 436px;
+}
+form{
+    input{
+        height: 53px;
+        padding:14px, 20px, 14px, 20px;
+    }
+    input::placeholder{
+        color: #364456;
+        font-weight: 600;
+    }
+    .btn{
+        padding: 15px 55px;
+    }
+}

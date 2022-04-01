@@ -1,0 +1,49 @@
+main .carousel .carousel-control-prev,
+main .carousel .carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  bottom: 20px;
+  top: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+main .carousel .carousel-control-prev:hover,
+main .carousel .carousel-control-next:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main .carousel .carousel-control-next-icon,
+main .carousel .carousel-control-prev-icon {
+  background-size: 15px;
+}
+
+main .carousel .carousel-control-prev {
+  left: auto;
+  right: 70px;
+}
+
+main .carousel .carousel-control-next {
+  right: 30px;
+}
+
+main .comming-soon .comming-soon-item .sold svg {
+  top: 0;
+  left: 0;
+}
+
+main .winners .winner-img-box {
+  left: 50%;
+  top: -50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main .winners .winner-img-box img {
+  border-color: #f7ab4b !important;
+}
+/*# sourceMappingURL=home.css.map */

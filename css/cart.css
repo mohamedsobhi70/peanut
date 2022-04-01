@@ -1,0 +1,27 @@
+.item .img-box {
+  width: 200px;
+}
+
+.item .delete-item {
+  right: 30px;
+  bottom: 30px;
+}
+
+.select-item {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.select-item.active {
+  border: 2px solid #F7AB4B;
+}
+
+.select-item.active svg path {
+  fill: #F7AB4B;
+}
+
+.select-item svg path {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+/*# sourceMappingURL=cart.css.map */

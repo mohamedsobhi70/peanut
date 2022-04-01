@@ -1,0 +1,94 @@
+$primary-color: #3269ac;
+$secondary-color: #f7ab4b;
+$tertiary-color: #a6cbed;
+$dark-color: #072954;
+$success-color: #40da90;
+$error-color: #ff4f4f;
+$gray-color: #c8c8c8;
+$acent-color: #ecf1f4;
+$text-color: #364456;
+$light-color: #FAFCFE;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,700;0,900;1,200;1,300;1,500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color: $acent-color;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.shadow-main {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.rounded-8 {
+  border-radius: 8px !important;
+}
+.rounded-15 {
+  border-radius: 15px !important;
+}
+.bg-tertiary {
+  background: $tertiary-color;
+}
+.bg-acent {
+  background: $acent-color;
+}
+.bg-primary-color {
+  background: $primary-color;
+}
+.bg-secondary-color {
+  background: $secondary-color;
+}
+.bg-gray-color {
+  background: $gray-color;
+}
+.bg-light-color {
+  background: $light-color;
+}
+.text-primary-color {
+  color: $primary-color;
+}
+.text-text-color {
+  color: $text-color;
+}
+.text-tertiary-color {
+  color: $tertiary-color;
+}
+.text-error-color {
+  color: $error-color;
+}
+.text-secondary-color {
+  color: $secondary-color;
+}
+.text-dark-color {
+  color: $dark-color;
+}

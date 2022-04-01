@@ -1,0 +1,58 @@
+$primary-color: #3269ac;
+$secondary-color: #f7ab4b;
+$tertiary-color: #a6cbed;
+$dark-color: #072954;
+$success-color: #40da90;
+$error-color: #ff4f4f;
+$gray-color: #c8c8c8;
+$acent-color: #ecf1f4;
+$text-color: #364456;
+main {
+  .carousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #eee;
+      border-radius: 50%;
+      bottom: 20px;
+      top: auto;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      background-size: 15px;
+    }
+    .carousel-control-prev {
+      left: auto;
+      right: 70px;
+    }
+    .carousel-control-next {
+      right: 30px;
+    }
+  }
+  .comming-soon {
+    .comming-soon-item {
+      .sold {
+        svg {
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+  .winners {
+    .winner-img-box {
+      left: 50%;
+      top: -50px;
+      transform: translateX(-50%);
+      img {
+        border-color: $secondary-color !important;
+      }
+    }
+  }
+}

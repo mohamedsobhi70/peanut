@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,700;0,900;1,200;1,300;1,500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+body {
+  background-color: #ecf1f4;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.shadow-main {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-8 {
+  border-radius: 8px !important;
+}
+
+.rounded-15 {
+  border-radius: 15px !important;
+}
+
+.bg-tertiary {
+  background: #a6cbed;
+}
+
+.bg-acent {
+  background: #ecf1f4;
+}
+
+.bg-primary-color {
+  background: #3269ac;
+}
+
+.bg-secondary-color {
+  background: #f7ab4b;
+}
+
+.bg-gray-color {
+  background: #c8c8c8;
+}
+
+.bg-light-color {
+  background: #FAFCFE;
+}
+
+.text-primary-color {
+  color: #3269ac;
+}
+
+.text-text-color {
+  color: #364456;
+}
+
+.text-tertiary-color {
+  color: #a6cbed;
+}
+
+.text-error-color {
+  color: #ff4f4f;
+}
+
+.text-secondary-color {
+  color: #f7ab4b;
+}
+
+.text-dark-color {
+  color: #072954;
+}
+/*# sourceMappingURL=genral.css.map */

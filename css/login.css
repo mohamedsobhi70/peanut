@@ -1,0 +1,33 @@
+.login-box {
+  max-width: 436px;
+}
+
+form input {
+  height: 53px;
+  padding: 14px, 20px, 14px, 20px;
+}
+
+form input::-webkit-input-placeholder {
+  color: #364456;
+  font-weight: 600;
+}
+
+form input:-ms-input-placeholder {
+  color: #364456;
+  font-weight: 600;
+}
+
+form input::-ms-input-placeholder {
+  color: #364456;
+  font-weight: 600;
+}
+
+form input::placeholder {
+  color: #364456;
+  font-weight: 600;
+}
+
+form .btn {
+  padding: 15px 55px;
+}
+/*# sourceMappingURL=login.css.map */
