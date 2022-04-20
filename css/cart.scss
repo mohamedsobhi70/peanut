@@ -10,7 +10,8 @@
 }
 .select-item{
     transition: .3s ease-in-out;
-    &.active{
+    cursor: pointer;
+    &.active,&:hover{
         border: 2px solid #F7AB4B;
         svg{
             path{        
@@ -18,7 +19,7 @@
           }
         }
     }
-
+    
     svg{
         path{
             transition: .3s ease-in-out;

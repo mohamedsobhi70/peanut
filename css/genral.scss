@@ -12,6 +12,7 @@ $light-color: #FAFCFE;
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 body {
@@ -91,4 +92,46 @@ body {
 }
 .text-dark-color {
   color: $dark-color;
+}
+.btn{
+  &:focus{
+    box-shadow: none;
+  }
+}
+.peanut-img{
+animation: imag 1.5s ease-in-out infinite alternate;
+transform-origin: 50%;
+transform-box: fill-box;
+}
+@keyframes imag {
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform:rotate(1080deg) scale(0);
+    fill: #3269ac;
+    
+  }
+}
+.navbar-toggler{
+  &:focus{
+    box-shadow: none;
+  }
+}
+.cart-num{
+  width: 22px;
+  height:22px;
+  background: $secondary-color;
+  top: -10px;
+  left: -10px;
+}
+.account-section a,
+.cart-section a{
+&.active{
+  color: $secondary-color;
+  svg
+  {
+path{    fill: $secondary-color;
+}  }
+}
 }

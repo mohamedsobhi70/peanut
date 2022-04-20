@@ -14,3 +14,10 @@ form {
     padding: 15px 55px;
   }
 }
+.form-control{
+  transition: .3s ease-in-out;
+&:focus{
+  box-shadow: none;
+  background: #add1ff;
+}
+}

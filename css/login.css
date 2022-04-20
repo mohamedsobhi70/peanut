@@ -30,4 +30,14 @@ form input::placeholder {
 form .btn {
   padding: 15px 55px;
 }
-/*# sourceMappingURL=login.css.map */
+
+.form-control {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #add1ff;
+}

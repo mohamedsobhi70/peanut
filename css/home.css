@@ -46,4 +46,10 @@ main .winners .winner-img-box {
 main .winners .winner-img-box img {
   border-color: #f7ab4b !important;
 }
+
+@media (max-width: 768px) {
+  .voting {
+    border-radius: 0;
+  }
+}
 /*# sourceMappingURL=home.css.map */

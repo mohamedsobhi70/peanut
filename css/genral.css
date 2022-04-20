@@ -3,6 +3,7 @@
   font-family: "Montserrat", sans-serif;
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 body {
@@ -108,5 +109,65 @@ body {
 
 .text-dark-color {
   color: #072954;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.peanut-img {
+  -webkit-animation: imag 1.5s ease-in-out infinite alternate;
+          animation: imag 1.5s ease-in-out infinite alternate;
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes imag {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(1080deg) scale(0);
+            transform: rotate(1080deg) scale(0);
+    fill: #3269ac;
+  }
+}
+
+@keyframes imag {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(1080deg) scale(0);
+            transform: rotate(1080deg) scale(0);
+    fill: #3269ac;
+  }
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.cart-num {
+  width: 22px;
+  height: 22px;
+  background: #f7ab4b;
+  top: -10px;
+  left: -10px;
+}
+
+.account-section a.active,
+.cart-section a.active {
+  color: #f7ab4b;
+}
+
+.account-section a.active svg path,
+.cart-section a.active svg path {
+  fill: #f7ab4b;
 }
 /*# sourceMappingURL=genral.css.map */

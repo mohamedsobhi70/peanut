@@ -45,6 +45,7 @@ main {
       }
     }
   }
+  
   .winners {
     .winner-img-box {
       left: 50%;
@@ -54,5 +55,11 @@ main {
         border-color: $secondary-color !important;
       }
     }
+  }
+}
+
+@media (max-width:768px){
+  .voting{
+    border-radius: 0;
   }
 }
