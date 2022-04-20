@@ -3,8 +3,8 @@ let productsinCart = localStorage.getItem("productsinCart")
   ? JSON.parse(localStorage.getItem("productsinCart"))
   : [];
 // get data from the api
-async function getApi(url) {
-  let res = await fetch(url);
+async function getApi(){
+  let res = await fetch("./js/products.json");
   let data = await res.json();
   allProducts = data.soldProducts;
   drawReducedProducts(data.soldProducts);
@@ -162,5 +162,5 @@ function getCartNum() {
     return num;
   }
   
-getApi("/js/products.json");
+getApi();
 getCartNum();
