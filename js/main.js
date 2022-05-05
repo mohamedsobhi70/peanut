@@ -19,11 +19,11 @@ function drawCommingSoonProducts(products) {
                                   <div class="d-flex align-items-center justify-content-between">
                                       <div class="sold position-relative text-center">
                                           <div>
-                                              <svg class="position-absolute" width="89" height="54" viewBox="0 0 89 54"
+                                              <svg class="position-absolute" width="${product.remain/product.instock *112}" height="54" viewBox="0 0 ${product.remain/product.instock *112} 54"
                                                   fill="none" xmlns="http://www.w3.org/2000/svg">
                                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                                      d="M88.4608 0.82843C81.9103 -0.145001 75.0651 1.34308 69.4126 5.29268V5.27728C60.1243 11.2846 50.397 9.8444 42.3949 5.09243C32.0746 -1.96236 17.888 -0.914927 8.73059 8.24243C-1.61284 18.5859 -1.61283 35.3602 8.73059 45.7037C17.5029 54.4605 30.8808 55.7929 41.0471 49.7086L41.0625 49.724C49.8039 43.8321 61.4567 43.732 70.3599 49.4159L70.3753 49.4005C75.8272 52.8655 82.2749 54.1399 88.4608 53.2213V0.82843Z"
-                                                      fill="#FDE8CD" />
+                                                  d="M70.1323 47.5222C61.0283 42.2527 49.5152 42.4684 40.6647 48.1893L40.2768 48.4214C30.6863 54.1612 18.065 52.9021 9.79034 44.642C0.0336208 34.8843 0.0339337 19.0604 9.79127 9.30307C18.4285 0.665821 31.8122 -0.324785 41.5484 6.33073L41.5879 6.35772L41.629 6.38214C49.9864 11.3451 60.3419 12.9302 70.2272 6.53678L70.0001 6.18567C70.0095 6.18186 70.0189 6.17793 70.0283 6.17389L70.2717 6.52223C80.0138 -0.284874 93.5129 0.661195 102.209 9.35699C111.966 19.1146 111.966 34.9393 102.209 44.6969C93.7823 53.1233 80.8276 54.266 71.1799 48.1345L70.165 47.4895L70.1323 47.5222Z"
+                                                  fill="#FDE8CD" />
                                               </svg>
                                               <svg class="position-absolute" width="112" height="54" viewBox="0 0 112 54"
                                                   fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,12 +35,12 @@ function drawCommingSoonProducts(products) {
                                           <div class="d-flex  justify-content-around align-items-center position-relative"
                                               style="width: 112px; height: 54px">
                                               <div class="">
-                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">800</h6>
+                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">${product.remain}</h6>
                                                   <p class="mb-0 fw-500 text-dark-color fs-10">sold</p>
                                               </div>
                                               <div class="">
                                                   <p class="mb-0 fw-500 text-dark-color fs-10">out of</p>
-                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">950</h6>
+                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">${product.instock }</h6>
                                               </div>
                                           </div>
                                       </div>

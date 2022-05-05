@@ -1,3 +1,12 @@
+.item {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.item:hover {
+  border: 1px solid #F7AB4B;
+}
+
 .item .img-box {
   width: 200px;
 }
@@ -24,5 +33,25 @@
 .select-item svg path {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .item .delete-item {
+    right: 0px;
+    top: 0px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=cart.css.map */

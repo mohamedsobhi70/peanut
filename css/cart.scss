@@ -1,4 +1,10 @@
+
 .item{
+    transition: .3s ease-in-out;
+    &:hover{
+        border: 1px solid #F7AB4B;
+
+    }
     .img-box{
         width: 200px;
     }
@@ -26,3 +32,18 @@
         }
     }
 }
+@media (max-width: 768px) {
+    
+.item{    
+    .delete-item{
+        right:0px;
+        top: 0px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;padding: 10px;
+    }    
+}
+  }

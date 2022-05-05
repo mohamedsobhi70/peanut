@@ -32,12 +32,13 @@ form .btn {
 }
 
 .form-control {
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .form-control:focus {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background: #add1ff;
 }
+/*# sourceMappingURL=login.css.map */
