@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/home.css" />
     <!-- main style file-->
     <meta name="description" content="peanut website description will be here" />
-    <title>Peanut - Home Page</title>
+    <title>Peanut - Product Details</title>
 </head>
 
 <body>
@@ -145,7 +145,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="bundles.html">Bundles</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="items.html">Items</a>
                         </li>
                         <li class="nav-item">
@@ -156,8 +156,8 @@
                         </li>
                     </ul>
                     <div class="d-md-flex align-items-center">
-                        <div class="account-section">
-                            <a href="signin.html" class="text-decoration-none nav-link ps-0 ps-md-2">
+                        <div class="account-section d-flex">
+                            <a href="signin.html" class="text-decoration-none nav-link ps-0 ps-md-2 active">
                                 <span class="user-icon">
                                     <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -171,9 +171,24 @@
                                 </span>
                                 <span>login / sign up</span>
                             </a>
+                            <a href="account.html" class="user-name-section d-none text-decoration-none nav-link ps-0 ps-md-2 active">
+                                <span class="user-icon">
+                                    <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.7522 20.3157V20.4657H15.9022H16.8889H16.8981H17.0481V20.3157V15.886C17.0481 13.9076 15.4214 12.2948 13.4308 12.2948H4.52283C2.5322 12.2948 0.905542 13.9076 0.905542 15.886V20.3157V20.4657H1.05554H2.05147H2.20147V20.3157V15.886C2.20147 14.6154 3.23982 13.5833 4.52283 13.5833H13.4308C14.7138 13.5833 15.7522 14.6154 15.7522 15.886V20.3157Z"
+                                            fill="#364456" />
+                                        <path
+                                            d="M3.38625 6.08411C3.38625 9.14247 5.89818 11.6339 8.97695 11.6339C12.0557 11.6339 14.5676 9.14247 14.5676 6.08411C14.5676 3.02574 12.0557 0.534326 8.97695 0.534326C5.89818 0.534326 3.38625 3.02574 3.38625 6.08411ZM4.67296 6.07496C4.67296 3.72439 6.6058 1.80446 8.97695 1.80446C11.3481 1.80446 13.2809 3.72439 13.2809 6.07496C13.2809 8.42553 11.3481 10.3455 8.97695 10.3455C6.6058 10.3455 4.67296 8.42553 4.67296 6.07496Z"
+                                            fill="#364456" />
+                                    </svg>
+                                </span>
+                                <span class="user-name">user name</span>
+                            </a>
                         </div>
                         <div class="cart-section position-relative">
-                            <div class="position-absolute cart-num d-inline-flex justify-content-center align-items-center text-white rounded-circle small">
+                            <div
+                                class="position-absolute cart-num d-inline-flex justify-content-center align-items-center text-white rounded-circle small">
                                 0
                             </div>
                             <a href="cart.html" class="text-decoration-none nav-link ps-0 ps-md-2">
@@ -205,8 +220,9 @@
     <!-- ********************************************************************************** -->
     <!-- main page content  -->
     <main class="my-3">
-
-
+        <div class="container">
+           
+        </div>
     </main>
     <!-- end main page content  -->
     <!-- ********************************************************************************** -->
@@ -216,7 +232,7 @@
             <div
                 class="shadow-main py-3 bg-white border-20 px-5 d-flex align-items-md-center justify-content-center justify-content-md-between">
                 <ul class="list-unstyled d-none d-md-flex mb-0">
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About </a>
                     </li>
                     <li class="nav-item">
@@ -267,8 +283,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- bootstrap v.5-->
     <!--owl carousel-->
-
-    <script src="js/main.js"></script>
+    <script src="js/checkuser.js"></script>
+    <script src="js/productDetails.js"></script>
 </body>
 
 </html>

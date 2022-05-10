@@ -51,6 +51,9 @@ body {
 .shadow-main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.border-gray{
+  border-color: $gray-color;
+}
 .rounded-8 {
   border-radius: 8px !important;
 }
@@ -90,6 +93,9 @@ body {
 .text-secondary-color {
   color: $secondary-color;
 }
+.text-gray-color {
+  color: $gray-color;
+}
 .text-dark-color {
   color: $dark-color;
 }
@@ -124,6 +130,7 @@ transform-box: fill-box;
   background: $secondary-color;
   top: -10px;
   left: -10px;
+  font-size: 11px;
 }
 .account-section a,
 .cart-section a{

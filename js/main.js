@@ -3,7 +3,7 @@ let productsinCart = localStorage.getItem("productsinCart")
   ? JSON.parse(localStorage.getItem("productsinCart"))
   : [];
 // get data from the api
-async function getApi(){
+async function getApi() {
   let res = await fetch("./js/products.json");
   let data = await res.json();
   allProducts = data.soldProducts;
@@ -19,7 +19,13 @@ function drawCommingSoonProducts(products) {
                                   <div class="d-flex align-items-center justify-content-between">
                                       <div class="sold position-relative text-center">
                                           <div>
-                                              <svg class="position-absolute" width="${product.remain/product.instock *112}" height="54" viewBox="0 0 ${product.remain/product.instock *112} 54"
+                                              <svg class="position-absolute" width="${
+                                                (product.remain /
+                                                  product.instock) *
+                                                112
+                                              }" height="54" viewBox="0 0 ${
+      (product.remain / product.instock) * 112
+    } 54"
                                                   fill="none" xmlns="http://www.w3.org/2000/svg">
                                                   <path fill-rule="evenodd" clip-rule="evenodd"
                                                   d="M70.1323 47.5222C61.0283 42.2527 49.5152 42.4684 40.6647 48.1893L40.2768 48.4214C30.6863 54.1612 18.065 52.9021 9.79034 44.642C0.0336208 34.8843 0.0339337 19.0604 9.79127 9.30307C18.4285 0.665821 31.8122 -0.324785 41.5484 6.33073L41.5879 6.35772L41.629 6.38214C49.9864 11.3451 60.3419 12.9302 70.2272 6.53678L70.0001 6.18567C70.0095 6.18186 70.0189 6.17793 70.0283 6.17389L70.2717 6.52223C80.0138 -0.284874 93.5129 0.661195 102.209 9.35699C111.966 19.1146 111.966 34.9393 102.209 44.6969C93.7823 53.1233 80.8276 54.266 71.1799 48.1345L70.165 47.4895L70.1323 47.5222Z"
@@ -35,12 +41,17 @@ function drawCommingSoonProducts(products) {
                                           <div class="d-flex  justify-content-around align-items-center position-relative"
                                               style="width: 112px; height: 54px">
                                               <div class="">
-                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">${product.remain}</h6>
+                                              
+                                              <h6 class="fw-600 text-dark-color mb-0 fs-14">${
+                                                product.remain
+                                              }</h6>
                                                   <p class="mb-0 fw-500 text-dark-color fs-10">sold</p>
                                               </div>
                                               <div class="">
                                                   <p class="mb-0 fw-500 text-dark-color fs-10">out of</p>
-                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">${product.instock }</h6>
+                                                  <h6 class="fw-600 text-dark-color mb-0 fs-14">${
+                                                    product.instock
+                                                  }</h6>
                                               </div>
                                           </div>
                                       </div>
@@ -54,18 +65,29 @@ function drawCommingSoonProducts(products) {
                                       </div>
                                   </div>
                                   <div class="product-img text-center py-3">
-                                      <img src=${product.img} class="w-100" alt=" phone" />
+                                      <img src=${
+                                        product.img
+                                      } class="w-100" alt=" phone" />
                                   </div>
                                   <div class="product-name text-center">
-                                      <h6 class="fw-bold">
-                                          ${product.productName}
-                                      </h6>
+                                  <a href="productdetails.html" class="text-dark text-decoration-none" onClick="getProductDetails(${
+                                    product.id
+                                  })">
+                                  <h6 class="fw-bold">
+                                      ${product.productName}
+                                  </h6>
+                                  </a>
+
                                   </div>
                                   <div class="add-to-cart d-flex justify-content-around align-items-center">
-                                      <button class="btn fs-18 rounded-pill bg-secondary-color text-white px-4 py-2" onClick ="addToCart(${product.id})">
+                                      <button class="btn fs-18 rounded-pill bg-secondary-color text-white px-3 px-md-4  py-2" onClick ="addToCart(${
+                                        product.id
+                                      })">
                                           Add To Cart
                                       </button>
-                                      <p class="text-primary-color fs-18 fw-normal mb-0">${product.price} AED</p>
+                                      <p class="text-primary-color fs-18 fw-normal mb-0">${
+                                        product.price
+                                      } AED</p>
                                   </div>
                               </div>
                           </div>
@@ -139,8 +161,8 @@ function drawReducedProducts(products) {
 }
 // function to add item to cart
 function addToCart(id) {
-   let selectedItem = allProducts.filter((el) => el.id === id);
-   if (
+  let selectedItem = allProducts.filter((el) => el.id === id);
+  if (
     productsinCart.findIndex((el) => el.id == id) == -1 ||
     productsinCart == []
   ) {
@@ -152,15 +174,21 @@ function addToCart(id) {
 }
 // get prouduct in cart number
 function getCartNum() {
-    let num = 0;
-    if (productsinCart || productsinCart != []) {
-      productsinCart.forEach((el) => {
-        num += el.qty;
-      });
-    }
-    document.querySelector("header .cart-num").innerHTML = num;
-    return num;
+  let num = 0;
+  if (productsinCart || productsinCart != []) {
+    productsinCart.forEach((el) => {
+      num += el.qty;
+    });
   }
-  
+  document.querySelector("header .cart-num").innerHTML = num;
+  return num;
+}
+
+function getProductDetails(id) {
+  localStorage.setItem("selectedProductID", id);
+  console.log(id);
+}
+
 getApi();
 getCartNum();
+

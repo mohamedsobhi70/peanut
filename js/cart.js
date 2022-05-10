@@ -1,15 +1,15 @@
 let productsinCart = localStorage.getItem("productsinCart")
   ? JSON.parse(localStorage.getItem("productsinCart"))
   : [];
-// fuction to draw cart items 
-  function drawCart() {
-    if (
-      localStorage.getItem("productsinCart") &&
-      localStorage.getItem("productsinCart") !== []
-    ) {
-      let cart = JSON.parse(localStorage.getItem("productsinCart"));
-      for (let i = 0; i < cart.length; i++) {
-        document.querySelector(".cart").innerHTML += `
+// fuction to draw cart items
+function drawCart() {
+  if (
+    localStorage.getItem("productsinCart") &&
+    localStorage.getItem("productsinCart") !== []
+  ) {
+    let cart = JSON.parse(localStorage.getItem("productsinCart"));
+    for (let i = 0; i < cart.length; i++) {
+      document.querySelector(".cart").innerHTML += `
         <div class="item bg-white mb-3 p-4 rounded-15 position-relative">
         <div class="d-flex align-items-center">
             <div class="img-box d-inline-flex align-items-center justify-content-center">
@@ -22,14 +22,20 @@ let productsinCart = localStorage.getItem("productsinCart")
                 <div class="item-num d-flex align-items-center my-4">
                     <span
                         class="plus bg-acent rounded-circle d-inline-flex justify-content-center align-items-center"
-                        role="button" style="width: 30px; height: 30px;" onClick ="increaseinCart(${cart[i].id})">+</span>
+                        role="button" style="width: 30px; height: 30px;" onClick ="increaseinCart(${
+                          cart[i].id
+                        })">+</span>
                     <span class="num mx-4 fs-18 ">${cart[i].qty}</span>
                     <span
                         class="minus bg-acent rounded-circle  d-inline-flex justify-content-center align-items-center"
-                        role="button" style="width: 30px; height: 30px;"  onClick ="decreaseinCart(${cart[i].id})">-</span>
+                        role="button" style="width: 30px; height: 30px;"  onClick ="decreaseinCart(${
+                          cart[i].id
+                        })">-</span>
                 </div>
                 <div class="item-price">
-                    <span class="text-primary-color fw-600 fs-24">AED ${cart[i].price * cart[i].qty}</span>
+                    <span class="text-primary-color fw-600 fs-24">AED ${
+                      cart[i].price * cart[i].qty
+                    }</span>
                 </div>
             </div>
         </div>
@@ -59,27 +65,27 @@ let productsinCart = localStorage.getItem("productsinCart")
         </div>
     </div>
      `;
-      }
-    } else {
-      document.querySelector(
-        ".cart"
-      ).innerHTML = `<h6 class="text-center py-5 bg-white rounded-15 text-secondary-color">Your Cart Empty , Choose What You Want First</h6>`;
     }
+  } else {
+    document.querySelector(
+      ".cart"
+    ).innerHTML = `<h6 class="text-center py-5 bg-white rounded-15 text-secondary-color">Your Cart Empty , Choose What You Want First</h6>`;
   }
-// function to remove item from cart 
+}
+// function to remove item from cart
 function removeFromCart(id) {
-    productsinCart = productsinCart.filter((product) => product.id !== id);
-    localStorage.setItem("productsinCart", JSON.stringify(productsinCart));
-    document.querySelector(".cart").innerHTML = ``;
-    if (productsinCart.length == 0) {
-      localStorage.clear();
-    }
-    drawCart();
-    totalinCart();
-    getCartNum();
+  productsinCart = productsinCart.filter((product) => product.id !== id);
+  localStorage.setItem("productsinCart", JSON.stringify(productsinCart));
+  document.querySelector(".cart").innerHTML = ``;
+  if (productsinCart.length == 0) {
+    localStorage.setItem("productsinCart", "");
   }
+  drawCart();
+  totalinCart();
+  getCartNum();
+}
 
-  //function to get prouduct in cart number
+//function to get prouduct in cart number
 function getCartNum() {
   let num = 0;
   if (productsinCart || productsinCart != []) {
@@ -88,51 +94,52 @@ function getCartNum() {
     });
   }
   document.querySelector("header .cart-num").innerHTML = num;
-  document.querySelector(".total-product-num").innerHTML = productsinCart.length;
+  document.querySelector(".total-product-num").innerHTML =
+    productsinCart.length;
 }
-  //function to get amount 
+//function to get amount
 function totalinCart() {
-    let total = 0;
-    if (productsinCart || productsinCart != []) {
-      productsinCart.forEach((el) => {
-        total += el.qty * (el.price );
-      });
-    } else {
-      total = 0;
-    }
-    document.querySelector(".total-cart").innerHTML = `AED ${total} `;
+  let total = 0;
+  if (productsinCart || productsinCart != []) {
+    productsinCart.forEach((el) => {
+      total += el.qty * el.price;
+    });
+  } else {
+    total = 0;
   }
+  document.querySelector(".total-cart").innerHTML = `AED ${total} `;
+}
 
 // increase item number in cart
 function increaseinCart(id) {
-    productsinCart.filter((el) => {
-      if (el.id === id) {
-        el.qty++;
-      }
-    });
-    localStorage.setItem("productsinCart", JSON.stringify(productsinCart));
-    document.querySelector(".cart").innerHTML = "";
-    drawCart();
-    getCartNum();
-    totalinCart();
-  }
-  // ************************************
-  // decrease item number in cart
-  function decreaseinCart(id) {
-    productsinCart.filter((el) => {
-      if (el.id === id && el.qty > 1) {
-        el.qty--;
-      } else if (el.qty === 1) {
-        removeFromCart(id);
-      }
-    });
-    localStorage.setItem("productsinCart", JSON.stringify(productsinCart));
-    document.querySelector(".cart").innerHTML = "";
-    drawCart();
-    getCartNum();
-    totalinCart();
-  }
-
+  productsinCart.filter((el) => {
+    if (el.id === id) {
+      el.qty++;
+    }
+  });
+  localStorage.setItem("productsinCart", JSON.stringify(productsinCart));
+  document.querySelector(".cart").innerHTML = "";
   drawCart();
   getCartNum();
   totalinCart();
+}
+// ************************************
+// decrease item number in cart
+function decreaseinCart(id) {
+  productsinCart.filter((el) => {
+    if (el.id === id && el.qty > 1) {
+      el.qty--;
+    } else if (el.qty === 1) {
+      removeFromCart(id);
+    }
+  });
+  localStorage.setItem("productsinCart", JSON.stringify(productsinCart));
+  document.querySelector(".cart").innerHTML = "";
+  drawCart();
+  getCartNum();
+  totalinCart();
+}
+
+drawCart();
+getCartNum();
+totalinCart();

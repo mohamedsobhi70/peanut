@@ -1,0 +1,32 @@
+main {
+  .accordion-item {
+    border: none !important;    border-bottom: 1px solid #ecf1f4 !important;
+
+    &:last-of-type {
+      border-bottom: none !important;
+    }
+  }
+  .accordion-button {
+      padding: 0;
+      margin: 20px;
+      width: 90%;
+    &:not(.collapsed) {
+      color: #f7ab4b;
+      background-color: white;
+      box-shadow: none;
+      &:after {
+        transform: rotate(-90deg);
+        background-image: none;
+      }
+    }
+    &:after {
+      content: "\203A";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      background-image: none;
+    }
+    box-shadow: none !important;
+  }
+}

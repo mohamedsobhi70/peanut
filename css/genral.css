@@ -55,6 +55,10 @@ body {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.border-gray {
+  border-color: #c8c8c8;
+}
+
 .rounded-8 {
   border-radius: 8px !important;
 }
@@ -105,6 +109,10 @@ body {
 
 .text-secondary-color {
   color: #f7ab4b;
+}
+
+.text-gray-color {
+  color: #c8c8c8;
 }
 
 .text-dark-color {
@@ -159,6 +167,7 @@ body {
   background: #f7ab4b;
   top: -10px;
   left: -10px;
+  font-size: 11px;
 }
 
 .account-section a.active,

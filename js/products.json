@@ -1,7 +1,7 @@
 {
   "newProducts": [
     {
-      " productID": 1,
+      "productID": 1,
       "id": 1,
       "productName": "Product1 Name",
       "img": "./images/03.jpg",
@@ -12,10 +12,10 @@
       "discount": 2,
       "instock": 239,
       "remain": 120,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 1,
+      "productID": 1,
       "id": 2,
       "productName": "Product2 Name",
       "img": "./images/04.jpg",
@@ -26,10 +26,10 @@
       "discount": 1,
       "instock": 524,
       "remain": 520,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 3,
       "productName": "Product3 Name",
       "img": "./images/05.jpg",
@@ -40,10 +40,10 @@
       "discount": 4,
       "instock": 555,
       "remain": 122,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 4,
       "productName": "Product4 Name",
       "img": "./images/06.jpg",
@@ -54,10 +54,10 @@
       "discount": 3,
       "instock": 123,
       "remain": 44,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 5,
       "productName": "Product5 Name",
       "img": "./images/07.jpg",
@@ -68,10 +68,10 @@
       "discount": 1,
       "instock": 34,
       "remain": 23,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 6,
       "productName": "Product6 Name",
       "img": "./images/08.jpg",
@@ -82,10 +82,10 @@
       "discount": 2,
       "instock": 30,
       "remain": 25,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 7,
       "productName": "Product7 Name",
       "img": "./images/09.jpg",
@@ -96,10 +96,10 @@
       "discount": 5,
       "instock": 129,
       "remain": 44,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 8,
       "productName": "Product8 Name",
       "img": "./images/10.jpg",
@@ -110,10 +110,10 @@
       "discount": 3,
       "instock": 223,
       "remain": 124,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 9,
       "productName": "Product9 Name",
       "img": "./images/11.jpg",
@@ -124,10 +124,10 @@
       "discount": 2,
       "instock": 555,
       "remain": 222,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 10,
       "productName": "Product10 Name",
       "img": "./images/12.jpg",
@@ -138,12 +138,12 @@
       "discount": 5,
       "instock": 304,
       "remain": 111,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     }
   ],
   "soldProducts": [
     {
-      " productID": 1,
+      "productID": 1,
       "id": 1,
       "productName": "Product1 Name",
       "img": "./images/03.jpg",
@@ -154,10 +154,10 @@
       "discount": 2,
       "instock": 999,
       "remain": 564,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 1,
+      "productID": 1,
       "id": 2,
       "productName": "Product2 Name",
       "img": "./images/04.jpg",
@@ -168,10 +168,10 @@
       "discount": 1,
       "instock": 453,
       "remain": 232,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 3,
       "productName": "Product3 Name",
       "img": "./images/05.jpg",
@@ -182,10 +182,10 @@
       "discount": 4,
       "instock": 444,
       "remain": 222,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 4,
       "productName": "Product4 Name",
       "img": "./images/06.jpg",
@@ -196,10 +196,10 @@
       "discount": 3,
       "instock": 1000,
       "remain": 790,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 5,
       "productName": "Product5 Name",
       "img": "./images/07.jpg",
@@ -210,10 +210,10 @@
       "discount": 0.5,
       "instock": 650,
       "remain": 300,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 6,
       "productName": "Product6 Name",
       "img": "./images/08.jpg",
@@ -224,10 +224,10 @@
       "discount": 2,
       "instock": 390,
       "remain": 129,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 7,
       "productName": "Product7 Name",
       "img": "./images/09.jpg",
@@ -238,10 +238,10 @@
       "discount": 5,
       "instock": 400,
       "remain": 30,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 8,
       "productName": "Product8 Name",
       "img": "./images/10.jpg",
@@ -252,10 +252,10 @@
       "discount": 3,
       "instock": 300,
       "remain": 123,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 9,
       "productName": "Product9 Name",
       "img": "./images/11.jpg",
@@ -266,10 +266,10 @@
       "discount": 2,
       "instock": 340,
       "remain": 200,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 10,
       "productName": "Product10 Name",
       "img": "./images/12.jpg",
@@ -280,10 +280,10 @@
       "discount": 5,
       "instock": 300,
       "remain": 250,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 11,
       "productName": "Product11 Name",
       "img": "./images/13.jpg",
@@ -294,10 +294,10 @@
       "discount": 2,
       "instock": 130,
       "remain": 20,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     },
     {
-      " productID": 2,
+      "productID": 2,
       "id": 12,
       "productName": "Product12 Name",
       "img": "./images/14.jpg",
@@ -308,7 +308,7 @@
       "discount": 1,
       "instock": 604,
       "remain": 600,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum."
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab quam fugiat sequi, laboriosam amet cum molestias voluptatum est sit molestiae blanditiis sunt sapiente doloremque. Corporis, vitae dolorum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium incidunt explicabo ab qum."
     }
   ]
 }
